@@ -1,45 +1,45 @@
 exports.private = () =>{
-	return`Fitur hanya bisa di gunakan di private chat`
+	return`Fitur hanya bisa di gunakan di private chat aja senpai~`
 	}
 exports.wait = () => {
-    return `⏳ Mohon tunggu sebentar~`
+    return `⏳ Mohon tunggu sebentar ya senpai~`
 }
 
 exports.ok = () => {
-    return `✅ Done. Ok desu~`
+    return `✅ Yatta. Nih Senpai~`
 }
 
 exports.err = () => {
-    return `⚠️ Fitur Sedang Error`
+    return `⚠️ Fitur Ini Sedang Proses perbaikan`
 }
 exports.erorLink = () => {
-    return `⚠️ Link nya error`
+    return `⚠️ Link nya error senpai~`
 }
 exports.media = () => {
-    return `Silahkan pilih media yang ingin kamu download`
+    return `Silahkan pilih media yang ingin kamu download~`
 }
 exports.replyImg = (prefix, command) => {
-    return `Kirim/Reply Foto Dengan Caption ${prefix + command}`
+    return `Kirim/Reply Foto Dengan Caption ${prefix + command} ya~`
 }
 
 exports.wrongFormat = (prefix) => {
-    return `Format salah ❎ Silakan cek cara penggunaan di *${prefix}allmenu*.`
+    return `Format yang senpai masukkan salah ❎ Silakan cek cara penggunaan di *${prefix}allmenu*.`
 }
 
 exports.emptyMess = () => {
-    return `❎ Harap masukkan pesan yang ingin disampaikan!`
+    return `❎ Harap masukkan pesan yang ingin senpai sampaikan!`
 }
 
 exports.cmdNotFound = (cmd, prefix) => {
-    return `❎ Command *${cmd}* tidak terdaftar di *${prefix}allmenu*`
+    return `❎ Command *${cmd}* yang senpai cari tidak terdaftar di *${prefix}allmenu*`
 }
 
 exports.ownerOnly = () => {
-    return `❎ Command ini khusus Owner!`
+    return `❎ Command ini khusus Owner IZUMI-BOT!`
 }
 
 exports.doneOwner = () => {
-    return `✅  ️Sudah selesai, Owner ~`
+    return `✅  ️ Yatta, Senpai ~`
 }
 
 exports.groupOnly = () => {
@@ -51,31 +51,31 @@ exports.adminOnly = () => {
 }
 
 exports.nhFalse = () => {
-    return `Kode tidak valid!`
+    return `Kode yang senpai masukkan tidak valid!`
 }
 
 exports.listBlock = (blockNumber) => {
-    return `*── 「 HALL OF SHAME 」 ──*
+    return `*── 「 NARAPIDANA 」 ──*
     
 Total diblokir: *${blockNumber.length}* user\n`
 }
 
 exports.notAdmin = () => {
-    return `❎ User bukan seorang admin! ❎`
+    return `❎ Kamu kan bukan seorang admin! ❎`
 }
 
 exports.adminAlready = () => {
-    return `❎ Tidak  dapat mem-promote user yang merupakan admin!`
+    return `❎ Tidak dapat mem-promote user yang merupakan admin!`
 }
 
 exports.botNotAdmin = () => {
-    return `Jadikan bot sebagai admin terlebih dahulu! 🙏`
+    return `Jadikan IZUMI-BOT sebagai admin terlebih dahulu! 🙏`
 }
 
 exports.received = (pushname) => {
     return `
 Halo ${pushname}!
-Terima kasih telah melapor, laporanmu akan kami segera terima.`
+Terima kasih telah melapor Senpai~, laporanmu akan kami segera terima.`
 }
 
 exports.videoLimit = () => {
@@ -83,11 +83,11 @@ exports.videoLimit = () => {
 }
 
 exports.notNum = (q) => {
-    return `"${q}", bukan angka!`
+    return `"${q}",Baka~, bukan angka!`
 }
 exports.menunya = (salam, pushname) =>{
 	return`Hai kak ${pushname} 👋 selamat ${salam} , 
-saya Alphabot-Md, bot ini adalah Beta Multi-Device Whatsapp. 
+Saya IZUMI-BOT, bot ini adalah Beta Multi-Device Whatsapp. 
 Jika kamu menemukan semacam bug atau kesalahan mohon dimaklumi dulu ya, 
 lapor owner agar segera di perbaiki 🙏      
 `
@@ -95,7 +95,7 @@ lapor owner agar segera di perbaiki 🙏
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname} 😖*
 *⌚Time Server : ${time}*
-*📚 List-Menu Alphabot-Md :*
+*📚 List-Menu IZUMI-BOT :*
 
 ╭─❒ 「 Bot Info 」 
 ├ ${prefix}owner
@@ -540,17 +540,8 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}memegen [text|text]
 ╰❒
 ╭─❒ 「 TqTo 」 
-├ My God
-├ My Parents
-├ Fatih A.
-├ Ferdi
-├ DikaArdnt
-├ Mhankbarbar
-├ Nurutomo
-├ Rashid
-├ ZeeoneOfc
-├ Penyedia Module
-╰❒ And All Support
+├ Untuk para donatur
+╰❒ dan seluruh pengguna IZUMI-BOT
 
     `
 }
@@ -580,15 +571,15 @@ Sanksi: *PERMANENT BLOCK*
 🗯️ Prefixnya apa ya?
 ➡️ Bot ini menggunakan multi prefix. Berarti anda bisa menggunakan prefix #, . , Dan prefix wajar lainnya.
 
-🗯️ Kak, kok syaa chat owner tidak direspon?
+🗯️ Kak, kok sAYa chat owner tidak direspon?
 ➡️ Owner hanya merespon pertanyaan seputar bot Dan kendala eror, tidak untuk kenalan ataupun mengemis script.
 
 
 Jika sudah dipahami rules-nya, silakan ketik *${prefix}allmenu* untuk memulai!
 
-⚠️ Segala kebijakan dan ketentuan Alphabot di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
+⚠️ Segala kebijakan dan ketentuan IZUMI-BOT di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
 
-Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan Alphabot
+Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan IZUMI-BOT
 😖🙏
 `
 }
@@ -608,8 +599,7 @@ Goodbye`
 exports.source = () =>{
 return`*── 「 SOURCE 」 ──*
 
-Base : https://github.com/DikaArdnt/Hisoka-Morou
-Recode : https://github.com/zeeoneofc/Alphabot-Md
+Source Code ini milik narahoshi.com
 `
 }
 exports.tos = (ownernomer) => {
@@ -1089,16 +1079,7 @@ return`*Others*
 
 exports.tqto = () =>{
 	return`*Thanks To*
-• My God
-• My Parents
-• Fatih A.
-• Ferdi
-• DikaArdnt
-• Mhankbarbar
-• Nurutomo
-• Rashid
-• ZeeoneOfc
-• Penyedia Module
-• And All Support
+• Para Donatur
+• Dan Seluruh Pengguna IZUMI-BOT
 `
 }
